@@ -20,8 +20,7 @@ body {
   display: none;
 }
 
-.nav-links,
-.logo {
+.nav-links{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -31,12 +30,7 @@ body {
   margin: 15px auto;
 }
 
-.logo {
-  display: inline-block;
-  font-size: 22px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
+
 
 .navbar-toggle {
   position: absolute;
@@ -83,16 +77,11 @@ body {
     margin-left: 40px;
   }
 
-  .logo {
-    margin-top: 0;
-  }
+
 
   .navbar-toggle {
     display: none;
   }
 
-  .logo:hover,
-  .nav-links:hover {
-    color: rgba(255, 255, 255, 1);
-  }
+
 }
