@@ -80,6 +80,7 @@ body {
   .logo{
     height: 253px;
     width: 962px;
+    text-align: center;
   }
 
   .navbar-toggle {
