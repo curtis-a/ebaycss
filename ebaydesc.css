@@ -77,7 +77,10 @@ body {
     margin-left: 40px;
   }
 
-
+  .logo{
+    height: auto;
+    width: auto;
+  }
 
   .navbar-toggle {
     display: none;
