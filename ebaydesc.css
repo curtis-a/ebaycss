@@ -4,6 +4,12 @@
   margin: 0;
 }
 
+ .logo{
+    height: 253px;
+    width: 962px;
+    text-align: center;
+  }
+
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
@@ -77,11 +83,6 @@ body {
     margin-left: 40px;
   }
 
-  .logo{
-    height: 253px;
-    width: 962px;
-    text-align: center;
-  }
 
   .navbar-toggle {
     display: none;
