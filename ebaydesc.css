@@ -110,7 +110,7 @@ body{
   justify-content: center
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   vertical-align:middle;
   flex: 35%;
@@ -293,6 +293,8 @@ body{
 }
 
 
+
+/* Mobile view Optimisation */
 
 @media screen and (max-width: 800px) {
   .column {
