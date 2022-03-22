@@ -23,6 +23,7 @@
   .aboutusContainer{
     height: auto;
     position: relative;
+    margin-bottom: 2%;
   }
     
     .logocontainer{
@@ -31,19 +32,19 @@
         margin-top: 2%;
         margin-left: 25%;
         margin-right: 25%;
-    
     }
-
-
+    hr{
+      width: 60%; margin: 0 20% 0 20%; height: 2px; background-color:#1f6696; border: none;
+    }
 
   .maincontainer{
     position: relative;
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(255, 255, 255);
-    height: 260%;
+    height: auto;
     width: 60%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     border-top: 4px solid #1f6696;
   }
 
@@ -159,7 +160,7 @@ body{
 
 .footer{
     width: 98%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-image: linear-gradient(260deg, #6e95cf 0%, #1f6696 100%); 
     color: white;
@@ -304,19 +305,11 @@ body{
   }
   .maincontainer{
     width: 100%;
-    height: 300%;
-  }
-  .footer{
-    margin-top: -30%;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .maincontainer{
-    width: 100%;
-    height: 400%;
-  }
-}
+
 
 @media screen and (max-width: 600px) {
   .column {
@@ -326,7 +319,7 @@ body{
   
   .maincontainer{
     width: 100%;
-    height: 350%;
+    height: auto;
   }
 
 
@@ -339,9 +332,6 @@ body{
     margin-top: 25%;
   }
 
-  .footer{
-    margin-top: -20%;
-  }
   .topnav{
     height: auto;
     width: 550px;
@@ -357,23 +347,12 @@ body{
 }
 
 @media screen and (max-width: 460px) {
-  .textcontainer{
-    height: 40%;
-  }
+
   .MoreImages{
     padding: 14px 20px;
     font-size: 11px;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-  .maincontainer{
-    height: 300%;
-  }
 
-}
 
