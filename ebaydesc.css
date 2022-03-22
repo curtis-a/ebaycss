@@ -1,116 +1,379 @@
 
-<html>
-<title> U-Roof Ebay Description </title>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://curtis-a.github.io/uroofebaydescription/ebaydesc.css"> <!-- <link rel="stylesheet" href="https://curtis-a.github.io/uroofebaydescription/ebaydesc.css"> -->
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+ 
 
-  </div>
-</head>
-<body>
-  <div class="maincontainer">
-
-    <div class="logocontainer">
-      <img src="https://curtis-a.github.io/uroofebaydescription/farhanbanner.png" alt="logo" class="logo"> 
-    </div>
-
-
-  <div class="topnav">
-    <a class="home" href="https://www.u-roof.com/">Home</a>
-    <a class= "gallery" href="https://www.u-roof.com/pages/gallery">Gallery</a>
-    <a class="contact" href="https://www.u-roof.com/pages/contact">Contact</a>
-    <a class="about " href="https://www.u-roof.com/pages/about-us">About</a>
-    <a class="contactus" href="https://www.u-roof.com/pages/contact">Contact Us</a>
-  </div>
+  .logo {
+    height: 10%;
+    width: 100%;
+  }
   
-  <div class="textcontainer">
-    <div class="textContainerHeader">
-      <p class="descriptionHeader">
-        Description
-      </p>
-
-    </div>
-
-  <br><br><br>
-  <p class="header" style="font-size: 25px;">Lorem Ipsum Lorem Ipsum Lorem</p>
-  <br>
-  <p class="para">Galvanised steel framed garden buildings. Various "off the shelf" sizes available.<br>
-    Bespoke service also available.<br> 
-  </p>
-  <br><br><br>
-  <p class="header">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-  <br>
-  <p class="para">All frames are pre-fabricated in 1.5mm thick S390Q Galvanised steel<br>
-    and will arrive in panel form requiring assembly with Tek screws using 8mm drive bit.<br>
-    Screws are included.
-  </p>
-  <br><br><br>
-  <p class="header">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-  <br>
-  <p class="para">All frames are C.A.D designed and are delivered with assembly drawings instructions.<br>
-  See Gallery using button below for examples.<br>
-  Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-  </p>
-  <br><br><br>
-  <p class="header">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-  <br>
-  <p class="para">Collect from our factory in Brighouse, West Yorkshire,  delivery can be arranged anywhere in the UK - please contact us for a quote.<br>
-    Frames are built to order and will be available approximately 10 working days from order. 
-    <br><br>
-    Prices includes Floor, Walls and Roof. <br>
-    Can be purchased without floor if you already have a suitable base, please enquire about prices. 
-  </p><br><br>
-  <p class="header" style="font-size:20px;">info@u-roof.com</p><br>
-  <p class="header" style="font-size:20px;">01422 237922</p>
-  <br><br>
-  <p class="para" style="font-size: 13px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-bottom: 5%;">Registration No. 06267613 - Registered in England & Wales. <br>
-    Registered Office: 3-5 Caldervale Works River Street, Brighouse HD6 1LY <br>
-    Telephone: 01422 237922
-  </div>
+  #center{
+  text-align: center;
+  }
+  
+  body {
+    font-family: Helvetica;
+  }
   
 
-  <div class="examplesContainer">
-    <p class="aboutusHeader">
-      Examples
-    </p>
-  </div>
-  <div class="row">
-    <div class="column">
-    <img src="https://www.u-roof.com/uploads/uroof-sub/images/gallery/gallery-page/garden-rooms-and-outdoor-buildings/full-frame-garden-rooms.jpg">
-    <img src="https://www.u-roof.com/uploads/uroof-sub/images/gallery/gallery-page/hippeholme/hipperholme-full-frame-3.jpg"></div> 
-    <div class="column">      
-    <img src="https://www.u-roof.com/uploads/uroof-sub/images/gallery/gallery-page/garden-rooms-and-outdoor-buildings/full-frame-garden-rooms-4.jpg">       
-    <img src="https://www.u-roof.com/uploads/uroof-sub/images/gallery/gallery-page/river-street/single-storey-extension---river-street-2.jpg">
-  </div>  
-  </div>
-
-  <div class="middle">
-    <a href="https://www.u-roof.com/pages/gallery" class="MoreImages btn">See More Images</a>
-</div>
-
-  <div class="aboutusContainer">
-  <div class="aboutusContainerHeader">
-    <p class="aboutusHeader">
-      About Us
-    </p>
-  </div>
-    <p class="AboutUs">
-      The U-Roof team has more than four decades of experience in the detailing and fabrication of prefabricated and modular steel frame buildings and ancillary products for the construction industry. With over 30 years’ experience in manufacture, delivery and installation in the UK and Ireland you can be confident in the products and service we supply. <br> <br>
-
-Our projects range from single bespoke roof only project, full multi-storey frame solutions, or mass-produced cost-effective systems for large multiple unit housing schemes. We offer a wide range of versatile, efficient full frame, roof, wall and floor support solutions that meet current building regulations, NHBC standards, complete with SCI stage 1 system certification. <br> <br>
-
-Utilising our bespoke design software, we can model your project in a 3-dimensional form to help visualise the proposals. Our services include design, manufacture and installation. However, we can provide systems on a supply only basis should you wish to fit the system yourself, as many of our customers often do. <br> <br>
-    </p>
-
-  </div>
-
-  <div class="footer">
-    <img src="https://curtis-a.github.io/uroofebaydescription/whitelogo.png">
-</div>
-
-</div>
+  .aboutusContainer{
+    height: auto;
+    position: relative;
+  }
+    
+    .logocontainer{
+      height:fit-content;
+      width:fit-content;
+        margin-top: 2%;
+        margin-left: 25%;
+        margin-right: 25%;
+    
+    }
 
 
-</body>
 
-</html>
+  .maincontainer{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    height: 260%;
+    width: 60%;
+    margin-bottom: 2%;
+    border-top: 4px solid #1f6696;
+  }
+
+  .textcontainer{
+    position: relative;
+    background-color: rgb(228, 226, 226);
+    height: auto;
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+.textcontainerHeader{
+  position: relative;
+  width: 100%;
+  height: 42px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-image: linear-gradient(260deg, #6e95cf 0%, #1f6696 100%); 
+  user-select: none;
+}
+.descriptionHeader{
+  padding: 13px 15px;
+  color: #fff;
+  user-select: none;
+}
+
+.aboutusHeader{
+  padding: 13px 15px;
+  color: #fff;
+  user-select: none;
+}
+
+.examplesContainer{
+  position: relative;
+  width: 98%;
+  height: 42px;
+  padding-top: 0%;
+  margin-bottom: 1%;
+  margin-top: 0%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-image: linear-gradient(260deg, #6e95cf 0%, #1f6696 100%); 
+  
+}
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+body{
+    background-color: rgb(226, 222, 222);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center
+}
+
+
+.column {
+  vertical-align:middle;
+  flex: 35%;
+  max-width: 35%;
+  padding: 0 4px;
+  margin-right: 10px;
+}
+
+.column img {
+  margin-top: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+
+.column img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+.column img:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.header{
+    text-align: center;
+    font-style: Courier;
+    font-size: 18px;
+
+}
+
+
+.para{
+    text-align: center;
+    font-style: Courier;
+    font-size: 15px;
+    
+}
+
+.footer{
+    width: 98%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(260deg, #6e95cf 0%, #1f6696 100%); 
+    color: white;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.footer img{
+  width: 100%;
+}
+
+
+
+
+
+.topnav {
+  background-image: linear-gradient(260deg, #6e95cf 0%, #1f6696 100%); 
+  overflow: hidden;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  border-top: solid 4px  #1f6696;
+}
+
+.topnav a.contactus{
+  float: right;
+  border-top: solid 4px  #949393ec;
+  background-color: #949393ec;
+  color: white;
+}
+
+
+
+
+.topnav a.news{
+  border-top: solid 4px  #3070a2;
+}
+
+.topnav a.contact{
+  border-top: solid 4px #3070a2;
+}
+
+.topnav a.about{
+  border-top: solid 4px #417baf;
+}
+
+
+
+
+.topnav a:hover, .topnav a.home:hover{
+  background-color: #ddd;
+  color: black;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  border-top: 4px solid #A3DEF1;
+
+}
+
+.aboutusContainerHeader{
+  position: relative;
+  width: 98%;
+  height: 42px;
+  padding-top: 0%;
+  margin-bottom: 1%;
+  margin-top: 12%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-image: linear-gradient(260deg, #6e95cf 0%, #1f6696 100%); 
+  
+}
+
+.AboutUs{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+
+.middle{
+  position: absolute;
+  margin-top: 5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.MoreImages{
+  position: relative;
+  display: block;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid #1f6696;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.MoreImages::before{
+  background: #1f6696;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn::before{
+  width: 0%;
+  height: 100%;
+}
+
+.btn:hover::before{
+  width: 100%;
+}
+
+
+
+/* Mobile view Optimisation */
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .maincontainer{
+    width: 100%;
+    height: 300%;
+  }
+  .footer{
+    margin-top: -30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .maincontainer{
+    width: 100%;
+    height: 400%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 75%;
+    max-width: 75%;
+  }
+  
+  .maincontainer{
+    width: 100%;
+    height: 350%;
+  }
+
+
+  .middle{
+    margin-bottom: 15%;
+    margin-top: 15%;
+  }
+
+  .aboutusContainerHeader{
+    margin-top: 25%;
+  }
+
+  .footer{
+    margin-top: -20%;
+  }
+  .topnav{
+    height: auto;
+    width: 550px;
+    
+  }
+}
+
+@media screen and (max-width: 533px) {
+  .MoreImages{
+    padding: 14px 30px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .textcontainer{
+    height: 40%;
+  }
+  .MoreImages{
+    padding: 14px 20px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .maincontainer{
+    height: 300%;
+  }
+
+}
+
