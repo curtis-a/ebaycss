@@ -43,9 +43,10 @@
     margin-left: auto;
     background-color: rgb(255, 255, 255);
     height: auto;
-    width: 80%;
-    margin-bottom: 0%;
+    width: 60%;
+    margin-bottom: 1%;
     border-top: 4px solid #1f6696;
+    padding-bottom: 0.5%;
   }
 
   .textcontainer{
@@ -168,7 +169,7 @@ body{
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1%;
-    
+    height: auto;
 }
 
 .footer img{
